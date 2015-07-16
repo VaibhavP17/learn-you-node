@@ -1,4 +1,5 @@
-var map = require('through2-map'), http = require('http');
+var map = require('through2-map')
+var http = require('http');
 
 var server = http.createServer(function (req, res){
 	if(req.method !== 'POST'){
